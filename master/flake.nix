@@ -11,7 +11,6 @@
   inputs.src-awslambda-master.ref   = "refs/heads/master";
   inputs.src-awslambda-master.owner = "lambci";
   inputs.src-awslambda-master.repo  = "awslambda.nim";
-  inputs.src-awslambda-master.dir   = "";
   inputs.src-awslambda-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
