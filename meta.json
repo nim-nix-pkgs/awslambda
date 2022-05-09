@@ -7,37 +7,8 @@
   "license": "MIT",
   "web": "https://github.com/lambci/awslambda.nim",
   "refs": [
-    "refs/heads/master",
+    "fatal: unable to access 'https://github.com/lambci/awslambda.nim/': SSL connection timeout",
     ""
   ],
-  "heads": [
-    {
-      "name": "awslambda",
-      "version": "0.2.0",
-      "author": "Michael Hart",
-      "desc": "A package to compile nim functions for AWS Lambda",
-      "license": "MIT",
-      "skipDirs": [],
-      "skipFiles": [],
-      "skipExt": [],
-      "installDirs": [],
-      "installFiles": [],
-      "installExt": [],
-      "requires": [
-        {
-          "name": "nim",
-          "str": ">= 0.19.0",
-          "ver": {
-            "kind": "verEqLater",
-            "ver": "0.19.0"
-          }
-        }
-      ],
-      "bin": [],
-      "binDir": "",
-      "srcDir": ".",
-      "backend": "c",
-      "ref": "refs/heads/master"
-    }
-  ]
+  "heads": []
 }
