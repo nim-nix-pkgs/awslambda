@@ -7,6 +7,14 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
+  inputs."awslambda-master".dir   = "master";
+  inputs."awslambda-master".owner = "nim-nix-pkgs";
+  inputs."awslambda-master".ref   = "master";
+  inputs."awslambda-master".repo  = "awslambda";
+  inputs."awslambda-master".type  = "github";
+  inputs."awslambda-master".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."awslambda-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
